@@ -216,4 +216,8 @@ a:hover {
     .anime__details__episodes {
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5fbb2cff8456d01be52f9ae7d0fc8c0fe950411b
