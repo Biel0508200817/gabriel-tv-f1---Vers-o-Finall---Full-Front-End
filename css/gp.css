@@ -1,19 +1,11 @@
-
 :root {
     --f1-dark-background: #121212;
     --f1-mid-gray: #1E1E1E;
     --f1-highlight-red: #E10600;
+    /* Vermelho vibrante da F1 */
     --f1-text-light: #F5F5F5;
     --f1-text-dim: #AAAAAA;
     --f1-border-color: #333333;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
@@ -28,7 +20,7 @@ body {
 a {
     color: var(--f1-highlight-red);
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: color 0.3s;
 }
 
 a:hover {
@@ -41,8 +33,6 @@ a:hover {
     margin: 0 auto;
     padding: 0 15px;
 }
-
-/* HEADER */
 
 .header {
     background-color: var(--f1-mid-gray);
@@ -80,6 +70,7 @@ a:hover {
     font-weight: 700;
     padding: 5px 0;
     border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
 }
 
 .header__nav ul li a:hover,
@@ -87,8 +78,6 @@ a:hover {
     color: var(--f1-highlight-red);
     border-bottom: 2px solid var(--f1-highlight-red);
 }
-
-/* BREADCRUMB */
 
 .breadcrumb-option {
     background-color: var(--f1-dark-background);
@@ -112,34 +101,22 @@ a:hover {
     margin-left: 10px;
 }
 
-/* VIDEO PLAYER */
-
 .anime-details.spad {
     padding: 40px 0;
 }
 
-/* PLAYER DE VÍDEO */
-
-
 .anime__video__player {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    background: #000;
-    overflow: hidden;
-    border-radius: 6px;
+    background-color: #000;
+    border: 1px solid var(--f1-border-color);
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px rgba(225, 6, 0, 0.5);
 }
 
 .anime__video__player iframe {
-    position: absolute;
-    inset: 0;
     width: 100%;
-    height: 100%;
-    border: none;
+    aspect-ratio: 16 / 9;
+    display: block;
 }
-
-
-/* EPISODES */
 
 .section-title {
     border-left: 5px solid var(--f1-highlight-red);
@@ -159,7 +136,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--f1-mid-gray);
     border-radius: 8px;
 }
@@ -173,18 +150,16 @@ a:hover {
     border-radius: 4px;
     font-weight: 700;
     border: 1px solid var(--f1-border-color);
-    transition: all 0.3s ease;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
 .anime__details__episodes a:hover,
-.anime__details__episodes a.active {
+.anime__details__episodes a[href*="gpbahrain2022.html"] {
     background-color: var(--f1-highlight-red);
     border-color: var(--f1-highlight-red);
     color: var(--f1-text-light);
-    transform: translateY(-3px);
+    transform: scale(1.05);
 }
-
-/* FOOTER */
 
 .footer {
     background-color: var(--f1-mid-gray);
@@ -199,12 +174,6 @@ a:hover {
     color: var(--f1-text-dim);
     text-transform: uppercase;
 }
-
-.footer__logo a:hover {
-    color: var(--f1-highlight-red);
-}
-
-/* SCROLL TO TOP */
 
 .page-up {
     position: fixed;
@@ -224,15 +193,7 @@ a:hover {
     border-radius: 50%;
     font-size: 20px;
     line-height: 1;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
-
-#scrollToTopButton:hover {
-    background-color: #B30500;
-    transform: translateY(-3px);
-}
-
-/* RESPONSIVIDADE */
 
 @media (max-width: 768px) {
     .header__content {
@@ -252,37 +213,7 @@ a:hover {
         margin: 5px 0;
     }
 
-    .anime-details.spad {
-        padding: 25px 0;
-    }
-
     .anime__details__episodes {
         grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        padding: 12px;
-    }
-
-    .section-title h5 {
-        font-size: 19px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header__logo a {
-        font-size: 23px;
-    }
-
-    .container {
-        width: 95%;
-        padding: 0 5px;
-    }
-
-    .anime__details__episodes {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-
-    .anime__details__episodes a {
-        font-size: 13px;
-        padding: 10px 5px;
     }
 }
