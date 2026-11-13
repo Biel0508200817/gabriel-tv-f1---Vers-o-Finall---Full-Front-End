@@ -1,114 +1,211 @@
-# 🏎️ Gabriel TV F1
+# 🍳 ChefSkill
 
-### Corridas completas • Melhores momentos • História da Fórmula 1
+<p align="center">
+  <strong>Receitas Culinárias Passo a Passo e Lista de Mercado</strong>
+</p>
 
-O **Gabriel TV F1** é um projeto web desenvolvido para reunir conteúdos relacionados à Fórmula 1 em um único lugar. A plataforma permite navegar por diferentes temporadas da categoria, encontrar Grandes Prêmios e acessar páginas dedicadas às corridas.
-
-O objetivo é proporcionar aos fãs de automobilismo uma experiência simples, organizada e visualmente inspirada no universo da Fórmula 1.
+<p align="center">
+  Um aplicativo desenvolvido para facilitar a experiência na cozinha, permitindo descobrir receitas, acompanhar preparos e organizar ingredientes.
+</p>
 
 ---
 
-## 🚀 Funcionalidades
+## 📱 Sobre o projeto
 
-- 🏁 **Temporadas:** navegação por diferentes temporadas da Fórmula 1.
-- 🎬 **Corridas e vídeos:** páginas individuais dedicadas aos Grandes Prêmios.
-- 🏆 **Histórico:** organização de conteúdos de diferentes anos.
-- 🖼️ **Imagens:** capas e imagens relacionadas aos eventos.
-- 📱 **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
-- 🔴 **Identidade visual:** interface inspirada nas cores e no estilo visual do automobilismo.
+O **ChefSkill** é um aplicativo de culinária desenvolvido com o objetivo de tornar o preparo de receitas mais simples, organizado e acessível.
+
+A plataforma permite explorar receitas, visualizar ingredientes, acompanhar instruções de preparo e organizar produtos em uma lista de mercado.
+
+O projeto foi desenvolvido como parte das atividades educacionais do SENAI, envolvendo desenvolvimento mobile, identidade visual e tecnologias web.
+
+## 🎨 Identidade visual
+
+A identidade visual do ChefSkill foi desenvolvida com uma proposta moderna, minimalista e profissional.
+
+| Cor | Código | Aplicação |
+|---|---|---|
+| ⚫ Preto | `#111111` | Cor primária |
+| 🔴 Vermelho | `#D71920` | Cor secundária |
+| ⚪ Branco | `#FFFFFF` | Cor terciária |
+
+## ✨ Funcionalidades
+
+- 🏠 **Tela inicial:** apresentação e acesso às principais funcionalidades.
+- 🍽️ **Receitas:** exploração de receitas culinárias.
+- 📖 **Modo de preparo:** instruções organizadas passo a passo.
+- ❤️ **Favoritos:** armazenamento das receitas favoritas.
+- 🛒 **Lista de mercado:** organização dos ingredientes necessários.
+- 🔎 **Pesquisa:** localização de receitas.
+- 📱 **Interface responsiva:** experiência adaptada para dispositivos móveis.
+
+## 📸 Screenshots do aplicativo
+
+### 🏠 Tela inicial
+
+![Tela inicial do ChefSkill](./img/tela%20inicial1.png)
+
+### 🍽️ Receitas
+
+![Tela de receitas](./img/receitas1.png)
+
+### ❤️ Favoritos
+
+![Tela de favoritos](./img/favoritos1.png)
+
+### 🛒 Lista de mercado
+
+![Lista de mercado](./img/lista1.png)
+
+### Outras visualizações
+
+<details>
+<summary>Visualizar imagens alternativas</summary>
+
+**Tela inicial alternativa**
+
+![Tela inicial alternativa](./img/telainicial%202.png)
+
+**Receitas alternativa**
+
+![Receitas alternativa](./img/recitas2.png)
+
+**Favoritos alternativo**
+
+![Favoritos alternativo](./img/favoritos2.png)
+
+**Lista de mercado alternativa**
+
+![Lista alternativa](./img/lista2.png)
+
+</details>
 
 ## 🛠️ Tecnologias utilizadas
 
-| Tecnologia | Utilização |
+| Tecnologia | Finalidade |
 |---|---|
-| HTML5 | Estrutura das páginas |
-| CSS3 | Estilização e responsividade |
-| JavaScript | Recursos e funcionalidades da interface |
-| Git | Controle de versão |
-| GitHub | Hospedagem do código-fonte |
+| React.js | Construção da interface |
+| JavaScript | Lógica e funcionalidades |
+| HTML5 | Estrutura da aplicação |
+| CSS3 | Estilização e identidade visual |
+| Vite | Ambiente de desenvolvimento e build |
+| Capacitor | Integração com dispositivos móveis |
+| Lucide React | Ícones da interface |
+| Git e GitHub | Versionamento e hospedagem do código |
 
 ## 📂 Estrutura do projeto
 
 ```text
-gabriel-tv-f1/
+ChefSkill/
 │
+├── android/
+├── assets/
+├── dist/
+├── docs/
+├── icons/
+├── img/
+│   ├── favoritos1.png
+│   ├── favoritos2.png
+│   ├── lista1.png
+│   ├── lista2.png
+│   ├── receitas1.png
+│   ├── recitas2.png
+│   ├── tela inicial1.png
+│   └── telainicial 2.png
+│
+├── App.jsx
+├── main.jsx
+├── style.css
 ├── index.html
-│
-├── css/
-│   ├── style.css
-│   ├── gp.css
-│   └── temp.css
-│
-├── html/
-│   ├── 2017/
-│   ├── 2018/
-│   ├── 2019/
-│   ├── 2020/
-│   ├── 2021/
-│   ├── 2022/
-│   ├── 2023/
-│   ├── 2024/
-│   ├── 2025/
-│   └── 2026/
-│
-└── img/
-    ├── 2026/
-    └── logo/
+├── manifest.json
+├── capacitor.config.json
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 ```
 
-## 💻 Como executar o projeto
+## 🚀 Como executar o projeto
 
-Link do Site Hospedado na Vercel:
-https://gabriel-tv-f1-full-front-end.vercel.app/
+### 1. Pré-requisitos
 
+- Node.js instalado.
+- npm instalado.
+- Git instalado (opcional).
 
+### 2. Clone o repositório
 
-## 🎨 Identidade visual
+```bash
+git clone https://github.com/Biel0508200817/ChefSkill.git
+```
 
-O projeto utiliza uma identidade visual inspirada no automobilismo, com destaque para:
+### 3. Entre na pasta
 
-- 🔴 Vermelho: destaque e identidade esportiva.
-- ⚫ Preto: fundo principal da interface.
-- ⚪ Branco: textos e elementos de contraste.
-- Cinza: organização dos cards e componentes.
+```bash
+cd ChefSkill
+```
 
-As fontes utilizadas incluem **Roboto** e **Oswald**.
+### 4. Instale as dependências
 
-## 🎯 Objetivo do projeto
+```bash
+npm install
+```
 
-O Gabriel TV F1 nasceu da paixão pelo automobilismo e da vontade de desenvolver uma plataforma própria voltada aos fãs da Fórmula 1.
+### 5. Execute o projeto
 
-Além de reunir conteúdos sobre as corridas, o projeto também representa uma oportunidade de aplicar conhecimentos de desenvolvimento web, organização de arquivos, HTML, CSS e versionamento com Git.
+```bash
+npm run dev
+```
 
-## 🔮 Ultimas Melhorias - 11/11/26
+O Vite disponibilizará um endereço local para acessar o aplicativo pelo navegador.
 
-- [ ] Completamento do arquivo temp-26.html
+### 6. Gere a versão de produção
 
-## 🔮 Ultimas Melhorias - 12/11/26
+```bash
+npm run build
+```
 
-- [ ] Adicionamento da Temporadas de 2026 Completa (Até o Momento) (Foram Adicionados as Corridas da Temporada 2026)
-- [ ] Colocar As Imagens Localmente na Pasta do Projeto
+Os arquivos compilados serão gerados na pasta `dist/`.
 
-## 🔮 Melhorias futuras
+## 📲 Aplicativo Android
 
-- [ ] Expandir o conteúdo das temporadas. (Próxima Temporada á Ser Adicionada : 2025)
-- [ ] Melhorar a experiência em dispositivos móveis.
+O ChefSkill utiliza Capacitor para integração com Android.
 
+Para sincronizar os arquivos da aplicação com o projeto Android:
+
+```bash
+npx cap sync android
+```
+
+A geração do APK depende da configuração do ambiente Android e do processo de build utilizado no projeto.
+
+## 🎯 Objetivo educacional
+
+O desenvolvimento do ChefSkill permite aplicar conhecimentos de:
+
+- Desenvolvimento de aplicações mobile.
+- Construção de interfaces com React.
+- Estilização com CSS.
+- Organização de componentes.
+- Identidade visual e branding.
+- Integração com Capacitor.
+- Versionamento de código com Git e GitHub.
 
 ## 👨‍💻 Desenvolvedor
 
-**Gabriel Ribeiro de Menezes**
+**Aluno 08 — #08**
 
-Desenvolvedor em formação, interessado em desenvolvimento Web e Mobile, tecnologia e automobilismo.
+Projeto desenvolvido no contexto educacional do SENAI.
 
-GitHub: [@Biel0508200817](https://github.com/Biel0508200817)
+## 📌 Status do projeto
+
+Em desenvolvimento.
 
 ---
 
 <p align="center">
-  🏁 <strong>GABRIEL TV F1</strong>
-  <br>
-  <em>Uma paixão pela Fórmula 1 transformada em tecnologia.</em>
+  <strong>ChefSkill — Sua cozinha, suas receitas, sua organização.</strong>
 </p>
 
-**Aviso:** Projeto independente, desenvolvido para fins educacionais e de entretenimento. Não possui vínculo oficial com a Fórmula 1, FIA ou equipes participantes.</Markdown>
+<p align="center">
+  Desenvolvido com dedicação e tecnologia. ❤️
+</p>
