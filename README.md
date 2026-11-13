@@ -42,19 +42,19 @@ A identidade visual do ChefSkill foi desenvolvida com uma proposta moderna, mini
 
 ### 🏠 Tela inicial
 
-![Tela inicial do ChefSkill](/img/tela%20inicial1.png)
+![Tela inicial do ChefSkill](tela%20inicial1.png)
 
 ### 🍽️ Receitas
 
-![Tela de receitas](./img/receitas1.png)
+![Tela de receitas](receitas1.png)
 
 ### ❤️ Favoritos
 
-![Tela de favoritos](./img/favoritos1.png)
+![Tela de favoritos](favoritos1.png)
 
 ### 🛒 Lista de mercado
 
-![Lista de mercado](./img/lista1.png)
+![Lista de mercado](lista1.png)
 
 ### Outras visualizações
 
@@ -63,19 +63,19 @@ A identidade visual do ChefSkill foi desenvolvida com uma proposta moderna, mini
 
 **Tela inicial alternativa**
 
-![Tela inicial alternativa](./img/telainicial%202.png)
+![Tela inicial alternativa](telainicial%202.png)
 
 **Receitas alternativa**
 
-![Receitas alternativa](./img/recitas2.png)
+![Receitas alternativa](recitas2.png)
 
 **Favoritos alternativo**
 
-![Favoritos alternativo](./img/favoritos2.png)
+![Favoritos alternativo](favoritos2.png)
 
 **Lista de mercado alternativa**
 
-![Lista alternativa](./img/lista2.png)
+![Lista alternativa](lista2.png)
 
 </details>
 
