@@ -42,7 +42,7 @@ A identidade visual do ChefSkill foi desenvolvida com uma proposta moderna, mini
 
 ### 🏠 Tela inicial
 
-![Tela inicial do ChefSkill](./img/tela%20inicial1.png)
+![Tela inicial do ChefSkill](/img/tela%20inicial1.png)
 
 ### 🍽️ Receitas
 
