@@ -82,7 +82,7 @@ Além de reunir conteúdos sobre as corridas, o projeto também representa uma o
 
 ## 🔮 Ultimas Melhorias - 11/11/26
 
-- [] Completamento do arquivo temp-26.html
+- [ ] Completamento do arquivo temp-26.html
 
 ## 🔮 Ultimas Melhorias - 12/11/26
 
