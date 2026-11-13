@@ -80,10 +80,20 @@ O Gabriel TV F1 nasceu da paixão pelo automobilismo e da vontade de desenvolver
 
 Além de reunir conteúdos sobre as corridas, o projeto também representa uma oportunidade de aplicar conhecimentos de desenvolvimento web, organização de arquivos, HTML, CSS e versionamento com Git.
 
+## 🔮 Ultimas Melhorias - 11/11/26
+
+- [] Completamento do arquivo temp-26.html
+
+## 🔮 Ultimas Melhorias - 12/11/26
+
+- [ ] Adicionamento da Temporadas de 2026 Completa (Até o Momento) (Foram Adicionados as Corridas da Temporada 2026)
+- [ ] Colocar As Imagens Localmente na Pasta do Projeto
+
 ## 🔮 Melhorias futuras
 
+- [ ] Expandir o conteúdo das temporadas. (Próxima Temporada á Ser Adicionada : 2025)
 - [ ] Melhorar a experiência em dispositivos móveis.
-- [ ] Expandir o conteúdo das temporadas.
+
 
 ## 👨‍💻 Desenvolvedor
 
